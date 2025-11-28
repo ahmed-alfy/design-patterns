@@ -5,7 +5,7 @@ namespace Creational\Builder;
 use Creational\Builder\CarBuilderInteface;
 use Creational\Builder\Modles\MercedsCar;
 
-class mercedsCarBuilder implements CarBuilderInteface
+class MercedsCarBuilder implements CarBuilderInteface
 {
     private $type;
     public function createCar()
