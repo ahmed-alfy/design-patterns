@@ -6,7 +6,7 @@ use InvalidArgumentException;
 
 class StaticFactory
 {
-    public static function build($type): CarInterface|null
+    public static function build($type): CarInterface
     {
         return match ($type) {
             'bmw' => new BmwCar(),
