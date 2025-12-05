@@ -4,8 +4,59 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "732f75383f117744e98f85d8de0be757",
-    "packages": [],
+    "content-hash": "af2ff079fe59de46edf5ac08f6842e48",
+    "packages": [
+        {
+            "name": "ahmed/basic-auth",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "packages/BasicAuth",
+                "reference": "3d5cac248d5d3096f472682b81426a7d17553cb4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicAuth\\": "packages/BasicAuth/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "ahmed-alfy",
+                    "email": "alalfyay@gmail.com"
+                }
+            ],
+            "description": "test package for adapter",
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "ahmed/token-auth",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "packages/TokenAuth",
+                "reference": "dd317d29d8b848bc7910b864a95657a5ccc9218f"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TokenAuth\\": "packages/TokenAuth/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "ahmed-alfy",
+                    "email": "alalfyay@gmail.com"
+                }
+            ],
+            "description": "test package for adapter",
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
     "packages-dev": [
         {
             "name": "myclabs/deep-copy",
@@ -580,16 +631,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "11.5.44",
+            "version": "11.5.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "c346885c95423eda3f65d85a194aaa24873cda82"
+                "reference": "faf5fff4fb9beb290affa53f812b05380819c51a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/c346885c95423eda3f65d85a194aaa24873cda82",
-                "reference": "c346885c95423eda3f65d85a194aaa24873cda82",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/faf5fff4fb9beb290affa53f812b05380819c51a",
+                "reference": "faf5fff4fb9beb290affa53f812b05380819c51a",
                 "shasum": ""
             },
             "require": {
@@ -661,7 +712,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/11.5.44"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/11.5.45"
             },
             "funding": [
                 {
@@ -685,7 +736,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-11-13T07:17:35+00:00"
+            "time": "2025-12-01T07:38:43+00:00"
         },
         {
             "name": "sebastian/cli-parser",
@@ -1778,7 +1829,10 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "ahmed/basic-auth": 20,
+        "ahmed/token-auth": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

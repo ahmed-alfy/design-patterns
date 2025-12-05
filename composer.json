@@ -3,7 +3,8 @@
     "description": "code examples for design pattern in php",
     "autoload": {
         "psr-4": {
-            "Creational\\": "src/Creational/"
+            "Creational\\": "src/Creational/",
+            "Structural\\": "src/Structural/"
         }
     },
     "authors": [
@@ -14,5 +15,19 @@
     ],
     "require-dev": {
         "phpunit/phpunit": "^11.5"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url" : "packages/BasicAuth"
+        },
+        {
+            "type": "path",
+            "url" : "packages/TokenAuth"
+        }
+    ],
+    "require": {
+        "ahmed/basic-auth": "*@dev",
+        "ahmed/token-auth": "*@dev"
     }
 }

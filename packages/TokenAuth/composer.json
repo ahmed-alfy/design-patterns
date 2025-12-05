@@ -1,0 +1,17 @@
+{
+    "name": "ahmed/token-auth",
+    "description": "test package for adapter",
+    "autoload": {
+        "psr-4": {
+            "TokenAuth\\": "packages/TokenAuth/"
+        }
+    },
+    "type": "library",
+    "authors": [
+        {
+            "name": "ahmed-alfy",
+            "email": "alalfyay@gmail.com"
+        }
+    ],
+    "require": {}
+}
