@@ -28,6 +28,7 @@
     ],
     "require": {
         "ahmed/basic-auth": "*@dev",
-        "ahmed/token-auth": "*@dev"
+        "ahmed/token-auth": "*@dev",
+        "laravel/tinker": "^2.10"
     }
 }
