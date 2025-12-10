@@ -1,5 +1,5 @@
 {
-    "name": "mohamed/design_patterns",
+    "name": "ahmed/design_patterns",
     "description": "code examples for design pattern in php",
     "autoload": {
         "psr-4": {
