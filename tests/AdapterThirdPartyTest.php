@@ -1,5 +1,5 @@
 <?php
-
+namespace Tests;
 use PHPUnit\Framework\TestCase;
 use Structural\AdapterThirdPartyExample\BasicAuthAdapter;
 use Structural\AdapterThirdPartyExample\TokenAuthAdapter;
